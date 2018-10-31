@@ -31,6 +31,14 @@ body, html {
 p {
   line-height: 1.5
 }
+.circular {
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
 .bgimg, .bgimg2 {
     min-height: 100%;
     background-position: center;
@@ -52,14 +60,14 @@ p {
 <div class="w3-bottom w3-hide-small">
   <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
     <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="#overview" style="width:25%" class="w3-bar-item w3-button">Overview</a>
-    <a href="#event" style="width:25%" class="w3-bar-item w3-button">Event Details</a>
-    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+    <a href="#about" style="width:25%" class="w3-bar-item w3-button">About Diego</a>
+    <a href="#endorsements" style="width:25%" class="w3-bar-item w3-button">Endorsements</a>
+    <a href="#volunteer" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Volunteer</a>
   </div>
 </div>
 
 <!-- About / Jane And John -->
-<div class="w3-container w3-padding-64 w3-grayscale-min" id="overview">
+<div class="w3-container w3-padding-64 w3-grayscale-min" id="about">
   <div class="w3-content">
   </br>
     <h1 class="w3-center w3-text-grey"><b>ABOUT DIEGO</b></h1>
@@ -71,7 +79,7 @@ p {
 </div>
 
 <!-- Background photo -->
-<div class="w3-display-container bgimg2" style="height: 1200px" id="event">
+<div class="w3-display-container bgimg2" style="height: 1200px">
   <div class="w3-display-middle w3-text-white w3-center">
 
   </div>
@@ -99,11 +107,19 @@ p {
 -->
 
 <!-- RSVP section -->
-<div class="w3-container w3-padding-64 w3-center w3-wide" id="rsvp">
-  <h1>We Hope You Can Make It!</h1>
-  <p class="w3-large">Kindly Respond By December 1, 2018</p>
+<div class="w3-container w3-padding-64 w3-center w3-wide" id="endorsements">
+  <h1>ENDORSEMENTS</h1></br>
+  <img class="circular" src="bo_obama.jpg" />
+  <p class="w3-large">BO OBAMA</p>
+  <p class="w3-large">"In a time when too many folks are focused simply on how to win an election, Diego’s somebody who cares about something more important: why we should. That’s the kind politics we should practice. That’s why I’m proud to give Diego my support."</p>
+</div>
+<hr>
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-center w3-wide" id="volunteer">
+  <h1>VOLUNTEER</h1>
+    <p class="w3-large">We need your help to win this thing!</p>
   <p class="w3-xlarge">
-    <button onclick="window.location.href='https://www.eventbrite.com/e/rekhas-60th-birthday-surprise-tickets-51573754488'" class="w3-button w3-round w3-opacity w3-hover-opacity-off" style="padding:8px 60px; background-color: #0000A0"><div style="color: #FFFFFF">RSVP</div></button>
+    <button class="w3-button w3-round w3-hover-opacity-off" style="padding:8px 60px; background-color: #232066"><div style="color: #FFFFFF">I'm in!</div></button>
   </p>
 </div>
 
